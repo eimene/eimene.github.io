@@ -2,41 +2,61 @@
     font-family: Helvetica, Arial, sans-serif;
   }
    
-   
   h1 {
-    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2rem;
   }
+
   h2 {
     border-bottom: 2px solid black;
-  }
+  } 
    
-   
-  p, 
-  li {
+  p {
     font-size: 18px;
   }
-   
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
    
   a {
     text-decoration: none;
   }
   header {
-      display: flex;
-      justify-content: space-between;
+      height: 200px;
+      margin-top: 50px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
   }
 
   .left {
     text-align: left;
     flex: 0 0 40%;
     max-width: 40%;
+    align-self: center;
  }
 
  .center {
     text-align: center;
+    align-self: center;
  }
 
  .right {
     text-align: right;
     flex: 0 0 40%;
     max-width: 40%; 
+    align-self: center;
+ }
+
+ .container {
+    max-width: 963px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+ }
+ section {
+   margin-top: 35px;
  }
