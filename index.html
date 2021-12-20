@@ -5,63 +5,173 @@
     <title>project</title>
     <meta name="charset" content="utf-8">
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <div class="header">
-                <div class="left">
-                    <p>Collége IMAME EL JAZOULI HAY EL OULFA CASABLANCA</p>
-                    <p>
-                        <a href="tel:0682346584">06.82.34.65.84</a><br>
-                        <a href="mailto:eimenelaadim@gmail.com"><u>eimenelaadim@gmail.com</u></a>
-                    </p>
-                </div>
-                <div class="center">
-                    <img src="https://www.leafstudio.co.uk/wp-content/uploads/2019/11/person-icon-silhouette-png-0.png"
-                        alt="Girl in a jacket" width="100" height="100">
-                </div>
-                <div class="right">
-                    <p><b>MOROCCAN <br>18/12/1995</b></p>
-                </div>
+        <aside>
+            <div class="aside-content">
+                <section class="header">
+                    <img src="https://www.leafstudio.co.uk/wp-content/uploads/2019/11/person-icon-silhouette-png-0.png" alt="profil" width="100" height="100">
+                    <h1>EIMENE LAADIM</h1>
+                    <h2 id="header">FRONT END DEVELOPER</h2>
+                </section>
+                <section class="contact">
+                    <h2>CONTACT</h2>
+                    <ul>
+                        <li>P. +000 123 456 789</li>
+                        <li>E. eimenelaadim@gmail.com</li>
+                        <li>W. www.creativewebbid.com</li>
+                        <li>A. Your Buisiness Address Here</li>
+                    </ul>
+                </section>
+                <section class="hobby">
+                    <h2>HOBBY</h2>
+                    <div class="hobby">
+                        <div class="hobby-item">
+                            <span class="material-icons" id="icon">directions_bike</span>
+                            <h3>Cycling</h3>
+                        </div>
+                        <div class="hobby-item"> 
+                            <span class="material-icons" id="icon">headset</span>
+                            <h3>Music</h3>
+                        </div>
+                        <div class="hobby-item"> 
+                            <span class="material-icons" id="icon">pool</span>
+                            <h3>Swimming</h3>
+                        </div>
+                    </div>
+                </section>
+                <section class="skills">
+                    <h2>SKILLS</h2>
+                    <div>
+                        <div>
+                            <label>Web Design:</label>
+                            <span>95%</span>
+                        </div>
+                        <progress id="skill_1" value="95" max="100"> 95% </progress>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Print Design:</label>
+                            <span>65%</span>
+                        </div>
+                        <progress id="skill_2" value="65" max="100"> 65% </progress>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Logo Design:</label>
+                            <span>80%</span>
+                        </div>
+                        <progress id="skill_3" value="80" max="100"> 80% </progress>
+                    </div>
+                    <div>
+                        <div>
+                            <label>Graphic Design:</label>
+                            <span>90%</span>
+                        </div>
+                        <progress id="skill_4" value="90" max="100"> 90% </progress>
+                    </div>
+                </section>
             </div>
-            <div class="name">
-                <h1>EIMENE LAADIM</h1>
+        </aside>
+        <main>
+            <div class="main-content">
+                <section class="experience">
+                    <h2>EXPERIENCE</h2>
+                    <div>
+                        <div>
+                            <h3>Lead Graphic Designer</h3>
+                            <h4><b>Envato</b>/Now2018</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Visual Art Director</h3>
+                            <h4><b>Design Desk</b>/2016-2017</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Junior Graphic Designer</h3>
+                            <h4><b>Brandoup</b>/2015-2016</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                    </div>
+                </section>
+                <section class="reference">
+                    <h2>REFERENCE</h2>
+                    <div>
+                        <h3><b>Brandoup</b>/Director</h3>
+                        <a href="#">+1 202 555 0129</a><br>
+                        <a href="tomail">eimenelaadim@gmail.com</a>
+                    </div>
+                    <div>
+                        <h3><b>Michal James</b>/CEO</h3>
+                        <a href="#">+1 202 555 0129</a><br>
+                        <a href="tomail">eimenelaadim@gmail.com</a>
+                    </div>
+                </section>
+                <section class="sofware">
+                    <h2>SOFTWARE</h2>
+                    <div>
+                        <label>Photoshop:</label>
+                        <progress id="sofware_1" value="95" max="100"> 95% </progress>
+                    </div>
+                    <div>
+                        <label>Html/Css:</label>
+                        <progress id="sofware_2" value="65" max="100"> 65% </progress>
+                    </div>
+                    <div>
+                        <label>Woedpress:</label>
+                        <progress id="sofware_3" value="80" max="100"> 80% </progress>
+                    </div>
+                    <div>
+                        <label>JavaScript:</label>
+                        <progress id="sofware_4" value="90" max="100"> 90% </progress>
+                    </div>
+                    <div>
+                        <label>Joomla:</label>
+                        <progress id="sofware_5" value="95" max="100"> 95% </progress>
+                    </div>
+                </section>
+                <section class="education">
+                    <h2>EDUCTAION</h2>
+                    <div>
+                        <div>
+                            <h3>MA Web Design</h3>
+                            <h4><b>Academy of Art Design USA</b>/2015-2016</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>BA Visual Art Direction</h3>
+                            <h4><b>University of media Arts</b>/2015-2016</h4>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                    </div>
+                </section>
             </div>
-        </header>
-        <section>
-            <h2>EDUCATION</h2>
-            <ul>
-                <li>2018 - 2019 Bachelor in Mathematical and Computer Sciences, Hassan II Ain Chok Casablanca University
-                </li>
-                <li>2016 - 2018 University Diploma of Technology in Computer Science, Higher School of Technology,
-                    Casablanca.</li>
-                <li>2015 - 2016 1st year physical and chemical sciences Université Hassan II AinChok Casablanca</li>
-                <li>2013 - 2014 Bachelor Degree - physical and chemical science, high school IBNOU EL KHATIB, Casablanca
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>WORK EXPERIENCE</h2>
-            <ul>
-                <li>04/18 - 05/18 Internship within the company <b>MARSA MAROC</b></li>
-                <li>07/17 - 08/17 Internship at <b>Bank Centrale Populaire</b></li>
-                <li>07/16 - 08/16 Internship within the company <b>BYMARO</b></li>
-            </ul>
-        </section>
-        <section>
-            <h2>SKILLS&LANGUAGES</h2>
-            <h4>SKILLS</h4>
-            <p>HTML (5 years), HTML5 (3 years), CSS3 (3 years), CSS (5 years), JavaScript (5 years), Bootstrap (3
-                years), PHP (2 years), MySQL (2 years), WordPress (4 years), ReactJS (1 year), Adobe Photoshop
-                (7 years), Front End (5 years), ajax (1 year), XML (3 years), JSON (3 years), XHTML (6 years), User
-                Interface (UI), jQuery (4 years), Sass (1 year), SCSS (1 year), Git (1 year), Docker (1 year), CLI (1
-                year), RegEx (1 year)
-            </p>
-            <h4>LANGUAGES</h4>
-            <p>JAPANESE (GOOD) - ENGLISH (GOOD) - FRENCH (MEDIUM) - ARABIC (NATIVE)</p>
-        </section>
+        </main>
     </div>
 </body>
 
