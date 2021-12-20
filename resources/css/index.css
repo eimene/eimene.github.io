@@ -30,6 +30,7 @@ time, mark, audio, video {
 body {
     line-height:1;
     background-color: hsl(0deg 0% 82%);
+    font-family: 'Roboto', sans-serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -104,7 +105,7 @@ input, select {
 
 
 .container {
-    max-width: 1200px;
+    max-width: 944px;
     width: 100%;
     height: auto;
     margin: auto;
@@ -113,8 +114,7 @@ input, select {
 }
 
 aside {
-    width: 20%;
-    display: inline;
+    flex: 0 0 30%;
     margin-top: 50px;
 }
 
@@ -126,7 +126,7 @@ aside {
 }
 
 main {
-    width: 80%;
+    flex: 0 0 70%;
     margin-top: 50px;
 }
 
@@ -138,15 +138,6 @@ main {
 section {
     min-height: 250px;
     height: 100%;
-}
-
-.header{
-    background-color: hsl(181deg 95% 35%);
-    margin-bottom: 30px;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
-    font-size: 25px;
 }
 
 h2 {
@@ -161,7 +152,34 @@ img {
     background-color: thistle;
 }
 
+.refsof {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.referance {
+    flex: 0 0 50%;
+}
+
+.software {
+    flex: 0 0 50%;
+}
+
+.header{
+    background-color: hsl(181deg 95% 35%);
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
 #header {
+    font-size: 19px;
+}
+
+#header1 {
     font-size: 14px;
     font-weight: unset;
     margin-top: 15px;
