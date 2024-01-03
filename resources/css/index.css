@@ -101,12 +101,22 @@ input, select {
     vertical-align:middle;
 }
 
-h1, h3, h4, li, p {
+/*My Style*/
+/* Global Style */
+h1, h3, h4, p {
     color: #434a54!important;
 }
 
 li {
     list-style: none;
+}
+
+/* Header Style */
+
+.header-title {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
 }
 
 .cover {
@@ -173,4 +183,10 @@ li {
     top: 25px;
     left: -29px;
     z-index: 1; 
+}
+
+.site-nav ul li i {
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
 }
