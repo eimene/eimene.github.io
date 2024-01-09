@@ -107,6 +107,10 @@ h1, h3, h4, p {
     color: #434a54!important;
 }
 
+.muted {
+    color: #6c757d!important;
+}
+
 li {
     list-style: none;
 }
