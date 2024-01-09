@@ -5,18 +5,21 @@
     <title>project</title>
     <meta name="charset" content="utf-8">
     <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <div class="container text-center py-4">
-            <div class="d-flex flex-column justify-content-between align-items-center py-2">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center py-2">
                 <h1 class="header-title mb-0">Robert Smith</h1>
                 <div class="site-nav py-2">
                     <ul class="d-flex gap-3 mb-0">
@@ -32,14 +35,14 @@
     <main>
         <div class="container">
             <div class="cover shadow-lg">
-                <div class="profile text-light d-flex flex-column p-4">
-                    <div class="d-flex justify-content-center p-4">
-                        <img src="./resources/img/test.png" alt="test">
+                <div class="profile text-light d-flex flex-column flex-md-row p-4">
+                    <div class="col-md-5 col-lg-4 d-flex justify-content-center p-4">
+                        <img src="./resources/img/test.png" class="border border-5 border-white shadow-lg" alt="test">
                     </div>
-                    <div class="d-flex flex-column text-center p-4">
+                    <div class="col-md-7 col-lg-8 d-flex flex-column justify-content-center p-4">
                         <h2 class="h1 fw-semibold text-light">Robert Smith</h2>
                         <p class="text-light">Graphic Designer & Web Developer</p>
-                        <div class="d-flex justify-content-center gap-3">
+                        <div class="d-flex gap-3">
                             <button class="btn btn-light rounded-pill px-4">Download CV</button>
                             <Button class="btn btn-success rounded-pill px-3">Hire Me</Button>
                         </div>
@@ -51,57 +54,59 @@
                         <p>Hello! I’m Robert Smith. I am passionate about UI/UX design and Web Design. I am a skilled
                             Front-end Developer and master of Graphic Design tools such as Photoshop and Sketch.</p>
                     </div>
-                    <div>
-                        <div class="pb-1">Age</div>
-                        <div class="pb-1 text-secondary">28</div>
-                        <div class="pb-1">Email</div>
-                        <div class="pb-1 text-secondary">Smith@company.com</div>
-                        <div class="pb-1">Phone</div>
-                        <div class="pb-1 text-secondary">+0719-223-0059</div>
-                        <div class="pb-1">Address</div>
-                        <div>140, City Center, New York, U.S.A</div>
+                    <div class="row">
+                        <div class="col-sm-4 pb-1">Age</div>
+                        <div class="col-sm-8 pb-1 text-secondary">28</div>
+                        <div class="col-sm-4 pb-1">Email</div>
+                        <div class="col-sm-8 pb-1 text-secondary">Smith@company.com</div>
+                        <div class="col-sm-4 pb-1">Phone</div>
+                        <div class="col-sm-8 pb-1 text-secondary">+0719-223-0059</div>
+                        <div class="col-sm-4 pb-1">Address</div>
+                        <div class="col-sm-8">140, City Center, New York, U.S.A</div>
                     </div>
                 </div>
                 <hr>
                 <div class="Skills p-4">
                     <h3 class="h3 fw-semibold mb-4">Professional Skills</h3>
-                    <div>
-                        <div>
-                            <p class="mb-2">html</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 90%;"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div>
+                                <p class="mb-2">html</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="mb-2">CSS</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="mb-2">JavaScript</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 70%;"></div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <p class="mb-2">CSS</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 80%;"></div>
+                        <div class="col-md-6">
+                            <div>
+                                <p class="mb-2">Adobe Photoshop</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 60%;"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <p class="mb-2">JavaScript</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 70%;"></div>
+                            <div>
+                                <p class="mb-2">Sketch</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 45%;"></div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <p class="mb-2">Adobe Photoshop</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 60%;"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="mb-2">Sketch</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 45%;"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="mb-2">Adobe XD</p>
-                            <div class="ProgressBar mb-2">
-                                <div class="Progress" style="width: 66%;"></div>
+                            <div>
+                                <p class="mb-2">Adobe XD</p>
+                                <div class="ProgressBar mb-2">
+                                    <div class="Progress" style="width: 66%;"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -118,7 +123,8 @@
                                 </div>
                                 <div>May, 2015 - Present</div>
                                 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                                    Iterative approaches to corporate strategy foster collaborative thinking to further the
+                                    Iterative approaches to corporate strategy foster collaborative thinking to further
+                                    the
                                     overall value proposition.</p>
                             </div>
                         </div>
@@ -130,7 +136,8 @@
                                 </div>
                                 <div>June, 2013 - May, 2015</div>
                                 <p>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
-                                    immersion along the information highway will close the loop on focusing solely on the
+                                    immersion along the information highway will close the loop on focusing solely on
+                                    the
                                     bottom line.</p>
                             </div>
                         </div>
@@ -159,8 +166,10 @@
                                     <span>from International University</span>
                                 </div>
                                 <div>2011 - 2013</div>
-                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative
-                                    approaches to corporate strategy foster collaborative thinking to further the overall value
+                                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                                    Iterative
+                                    approaches to corporate strategy foster collaborative thinking to further the
+                                    overall value
                                     proposition.</p>
                             </div>
                         </div>
@@ -172,7 +181,8 @@
                                 </div>
                                 <div>2007 - 2011</div>
                                 <p>Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
-                                    immersion along the information highway will close the loop on focusing solely on the bottom
+                                    immersion along the information highway will close the loop on focusing solely on
+                                    the bottom
                                     line.</p>
                             </div>
                         </div>
@@ -184,7 +194,8 @@
                                 </div>
                                 <div>1995 - 2007</div>
                                 <p>User generated content in real-time will have multiple touchpoints for offshoring.
-                                    Organically grow the holistic world view of disruptive innovation via workplace diversity
+                                    Organically grow the holistic world view of disruptive innovation via workplace
+                                    diversity
                                     and empowerment.</p>
                             </div>
                         </div>
@@ -194,7 +205,7 @@
                 <div class="contact-us p-4">
                     <h3 class="h3 fw-semibold mb-4">Contact</h3>
                     <div class="row">
-                        <div class="pb-4">
+                        <div class="col-12 col-md-7 pb-4">
                             <form action="">
                                 <div class="row my-2">
                                     <div class="col-6">
@@ -205,12 +216,13 @@
                                     </div>
                                 </div>
                                 <div class="form-group my-3">
-                                    <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+                                    <textarea class="form-control" style="resize: none;" name="" id="" rows="4"
+                                        placeholder="Your Message"></textarea>
                                 </div>
                                 <button class="btn btn-primary rounded-pill px-4" type="submit">Send</button>
                             </form>
                         </div>
-                        <div class="py-2 d">
+                        <div class="col-12 col-md-5 py-2 d">
                             <h3 class="h6 fw-semibold mb-3">Address</h3>
                             <p>140, City Center, New York, U.S.A</p>
                             <h3 class="h6 fw-semibold mb-3">Phone</h3>
@@ -238,7 +250,9 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

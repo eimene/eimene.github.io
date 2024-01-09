@@ -121,6 +121,12 @@ li {
     font-weight: 400;
 }
 
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1060px!important;
+    }
+}
+
 /* Cover */
 
 .cover {
@@ -197,4 +203,13 @@ li {
     top: 25px;
     left: -29px;
     z-index: 1; 
+}
+
+/* Footer */
+
+.form-control {
+    color: #434A54!important;
+    background-color: #f8f9fa!important;
+    border: 2px solid #dee2e6!important;
+    border-radius: 0.25rem!important;
 }
