@@ -103,6 +103,11 @@ input, select {
 
 /* ---My Style--- */
 /* Global */
+
+:root{
+    --text-primary: #434a54!important;
+  }
+
 h1, h3, h4, p {
     color: #434a54!important;
 }
@@ -123,6 +128,10 @@ li {
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
+}
+
+.dropdown button {
+    color: var(--text-primary);
 }
 
 @media (min-width: 1200px) {
